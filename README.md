@@ -11,3 +11,11 @@ Gonzalez Lopez Karen Alejnadra
  Cruz Gallardo Pablo Eduardo
 - pablocruz92@aragon.unam.mx
   - Equipo
+  - 
+Pérez Fernández Isaac
+- isaacperez84@aragon.unam.mx
+  - Equipo
+
+Soberanes Ramírez Rubén Sebastián
+- rubensoberanes53@aragon.unam.mx
+  - Equipo
