@@ -44,7 +44,37 @@
             </div>
             <div class="col-md-8">
                 <h1>Informacion</h1>
-                
+                <table class="table">
+
+                    <thead class="table table-dark">
+                        <tr>
+                            <th>IDpersona</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Edad</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <?php
+                            while($row=mysqli_fetch_array($query)){
+                        ?>
+                        <tr>
+                            <th><?php  echo $row['IDpersona']?></th>
+                            <th><?php  echo $row['Nombre']?></th>
+                            <th><?php  echo $row['Apellido']?></th>
+                            <th><?php  echo $row['Edad']?></th> 
+                            <th><a href="actualizar.php?id=<?php echo $row['IDpersona'] ?>" class="btn btn-info">Editar</a></th>
+                            <th><a href="delete.php?id=<?php echo $row['IDpersona'] ?>" class="btn btn-danger">Eliminar</a></th>
+                        </tr>
+                        <?php 
+                             }
+                         ?>
+                    </tbody>
+
+                </table>
             </div>
 
         </div>
